@@ -22,7 +22,7 @@ const WeatherApp = () => {
       if(inputRef.current.value=== ""){
         return 0;
       }
-      let url = `http://api.weatherapi.com/v1/current.json?key=${api_key}&q=${inputRef.current.value}&aqi=no`
+      let url = `https://api.weatherapi.com/v1/current.json?key=${api_key}&q=${inputRef.current.value}&aqi=no`
 
       const response = await fetch(url)
       let data = await response.json();
