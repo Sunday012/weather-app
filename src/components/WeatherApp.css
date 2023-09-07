@@ -191,12 +191,12 @@
         /* justify-content: space-between; */
     }
     .main-location{
-        font-size: 40px;
+        font-size: 30px;
         font-weight: 500;
         display: flex;
         position: relative;
-        left: -200px;
-        display: none;
+        /* left: -200px;
+        display: none; */
     }
     .temperature{
         font-size: 50px;
