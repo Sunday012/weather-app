@@ -165,7 +165,7 @@
         margin-left: 20px;
     }
     .search-input{
-        width: 120%;
+        width: 135%;
     }
     .input-box{
         background: rgb(237,242,248);
@@ -211,11 +211,14 @@
     }
     .weather-info{
         display: flex;
-        gap: 30px;
-        margin-left: -100px;
+        justify-content: space-around;
+        
+        gap: 10px;
     }
     .weather{
         width: 150px;
+        position: relative;
+        left: -40px;
     }
     .humidity{
         width: 30px;
@@ -275,7 +278,7 @@
     .city-box{
         display: flex;
         overflow-x: scroll;
-        width: 80%;
+        width: 100%;
         gap: 20px;
     }
     .city-weather{
