@@ -165,8 +165,7 @@
         margin-left: 20px;
     }
     .search-input{
-        width: 100%;
-        margin: 20px;
+        width: 120%;
     }
     .input-box{
         background: rgb(237,242,248);
@@ -180,15 +179,16 @@
         margin-left: -40px;
     }
     .text-input{
-        width: 40%;
+        width: 80%;
         background: transparent;
         border: none;
         outline: none;
     }
     .box{
+        width: 120%;
         display: flex;
         align-items: center;
-        /* justify-content: space-between; */
+        justify-content: space-between;
     }
     .main-location{
         font-size: 30px;
@@ -211,7 +211,7 @@
     }
     .weather-info{
         display: flex;
-        gap: 10px;
+        gap: 30px;
         margin-left: -100px;
     }
     .weather{
@@ -258,9 +258,9 @@
     .cities{
         display: flex;
         align-items: center;
+        width: 120%;
         justify-content: space-between;
         margin-top: 50px;
-        gap: 20px;
     }
     .view-all-text{
         position: relative;
@@ -269,7 +269,8 @@
     .city-info{
         display: flex;
         overflow-x: scroll;
-        width: 90%;
+        width: 120%;
+        margin-left: -20px;
     }
     .city-box{
         display: flex;
