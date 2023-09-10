@@ -6,25 +6,25 @@ import humidity from "../assets/humidity.png";
 import wind from "../assets/wind.png";
 import "./WeatherApp.css";
 const WeatherApp = () => {
-    const [temperature1, setTemperature] = useState("22°C")
+    const [temperature1, setTemperature] = useState("0°C")
     const cities = ["Lagos","New-york","London"]
-    const [humidity1, setHumidity] = useState("78%")
-    const [wind1, setWind] = useState("6 km/h")
-    const [location1, setLocation] = useState("London")
+    const [humidity1, setHumidity] = useState("0%")
+    const [wind1, setWind] = useState("0 km/h")
+    const [location1, setLocation] = useState("")
     const [weatherIcon,setWeatherIcon] = useState(weather)
     const [peripheralWeatherIcon,setPeripheralWeatherIcon] = useState(weather)
-    const [lagaosTemp, setLagosTemp] = useState("22")
-    const [lagosLocation, setLagosLocation] = useState("london")
-    const [lagosHumidity, setLagosHumidity] = useState("78")
-    const [lagosWind, setLagosWind] = useState("6")
-    const [londonTemp, setLondonTemp] = useState("22")
-    const [londonLocation, setLondonLocation] = useState("london")
-    const [londonHumidity, setLondonHumidity] = useState("78")
-    const [londonWind, setLondonWind] = useState("6")
-    const [NewyorkTemp, setNewyorkTemp] = useState("22")
-    const [NewyorkLocation, setNewyorkLocation] = useState("london")
-    const [NewyorkHumidity, setNewyorkHumidity] = useState("78")
-    const [NewyorkWind, setNewyorkWind] = useState("6")
+    const [lagaosTemp, setLagosTemp] = useState("0")
+    const [lagosLocation, setLagosLocation] = useState("")
+    const [lagosHumidity, setLagosHumidity] = useState("0")
+    const [lagosWind, setLagosWind] = useState("0")
+    const [londonTemp, setLondonTemp] = useState("0")
+    const [londonLocation, setLondonLocation] = useState("")
+    const [londonHumidity, setLondonHumidity] = useState("0")
+    const [londonWind, setLondonWind] = useState("0")
+    const [NewyorkTemp, setNewyorkTemp] = useState("0")
+    const [NewyorkLocation, setNewyorkLocation] = useState("")
+    const [NewyorkHumidity, setNewyorkHumidity] = useState("0")
+    const [NewyorkWind, setNewyorkWind] = useState("0")
     const currentDate = new Date()
     const monthOfTheYear = ["january", "february", "march", "april", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"]
 
@@ -131,6 +131,7 @@ const WeatherApp = () => {
           </div>
         </div>
       </div>
+      <div className="bottom-city">
       <div className="cities">
            <div className="other-cities-text">Other cities</div>
            <div className="view-all-text">View-all</div>
@@ -203,6 +204,7 @@ const WeatherApp = () => {
               <div className="city-humidity">
               <div className="city-text7">humidity</div>
               <div className="city-text8">{NewyorkHumidity + "%"}</div>
+              </div>
               </div>
             </div>
           </div>

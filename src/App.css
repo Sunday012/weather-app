@@ -1,4 +1,4 @@
-#root {
+/* #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
@@ -11,8 +11,18 @@ body{
   margin: 0;
   display: flex;
   place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-  width: 100%;
-}
+  /* min-width: 320px;
+  min-height: 100vh; */
+
+  body{
+    background: linear-gradient(150deg,rgb(100,125,230),rgb(108,88,237),rgb(119,56,244));
+    color: white;
+
+  }
+  #root {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+  }
 

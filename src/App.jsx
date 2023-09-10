@@ -1,9 +1,10 @@
 import './App.css'
+import "./components/WeatherApp.css"
 import WeatherApp from './components/WeatherApp'
 function App() {
 
   return (
-    <div>
+    <div className='weather-app-box'>
       <WeatherApp />
     </div>
   )
